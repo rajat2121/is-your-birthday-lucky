@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600;700&display=swap');
+
+.root {
+    --primary-color : #f30000;
+    --primary-pink: #F9A8D4;
+}
+
+body {
+    background-color: #e24444;
+    margin: 0px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.header {
+    text-align: center;
+    color: rgb(218, 30, 30);
+    background-color: #F472B6;
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(194, 40, 40);
+}
+
+#date-of-birth {
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 50%;
+   margin: auto;
+   padding: 6rem;
+}
+
+input, label {
+    display: block;
+}
+
+#check-btn {
+    border-color:rgb(117, 6, 62);
+    color: rgb(148, 3, 92);
+    font-weight: bold;
+    display:block;
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(240, 147, 204);
+    margin-bottom: 6rem;
+}
+
+input {
+    border-color: rgb(148, 3, 92);
+    border-radius: 0.3rem;
+}
+
+#output {
+    font-weight: bold;
+    margin-top: 1rem;
+    color: rgb(153, 8, 97);
+}
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* footer */
+.footer {
+    background-color: #F472B6;
+    border-radius: 4rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    color:#700b35;
+    
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color:black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.project {
+  padding-top: 0.5rem;
+}
+
+#note {
+    text-align: center;
+    padding: 2rem 2rem;
+    color:rgb(165, 1, 102);
+}
